@@ -3,7 +3,7 @@ window.onload=function(){
         let t = setInterval(function(){
             if(num.innerText<=1){
                 window.clearInterval(t);
-                location.replace('login.html');
+                location.replace('index.html');
             }
             num.innerText-=1;
         	
